@@ -1,0 +1,38 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\录制视频（成品）\Linux应用程序开发\传感器编程\代码\烟雾传感器
+-- The C compiler identification is GNU 8.1.0
+-- Check for working C compiler: C:/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/褰曞埗瑙嗛锛堟垚鍝侊級/Linux搴旂敤绋嬪簭寮�鍙�/浼犳劅鍣ㄧ紪绋�/浠ｇ爜/鐑熼浘浼犳劅鍣�/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe cmTC_ca880/fast && C:/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ca880.dir\build.make CMakeFiles/cmTC_ca880.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/褰曞埗瑙嗛锛堟垚鍝侊級/Linux搴旂敤绋嬪簭寮�鍙�/浼犳劅鍣ㄧ紪绋�/浠ｇ爜/鐑熼浘浼犳劅鍣�/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_ca880.dir/testCCompiler.c.obj
+    C:\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_ca880.dir\testCCompiler.c.obj   -c D:\瑜版洖鍩楃憴鍡涱暥閿涘牊鍨氶崫渚婄礆\Linux鎼存梻鏁ょ粙瀣碍瀵偓閸欐叚娴肩姵鍔呴崳銊х椽缁嬪獑娴狅絿鐖淺閻戠喖娴樻导鐘冲妳閸ｂ晿cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: D:\瑜版洖鍩楃憴鍡涱暥閿涘牊鍨氶崫渚婄礆\Linux鎼存梻鏁ょ粙瀣碍瀵偓閸欐叚娴肩姵鍔呴崳銊х椽缁嬪獑娴狅絿鐖淺閻戠喖娴樻导鐘冲妳閸ｂ晿cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ca880.dir\build.make:65: CMakeFiles/cmTC_ca880.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/褰曞埗瑙嗛锛堟垚鍝侊級/Linux搴旂敤绋嬪簭寮�鍙�/浼犳劅鍣ㄧ紪绋�/浠ｇ爜/鐑熼浘浼犳劅鍣�/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_ca880/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/褰曞埗瑙嗛锛堟垚鍝侊級/Linux搴旂敤绋嬪簭寮�鍙�/浼犳劅鍣ㄧ紪绋�/浠ｇ爜/鐑熼浘浼犳劅鍣�/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/褰曞埗瑙嗛锛堟垚鍝侊級/Linux搴旂敤绋嬪簭寮�鍙�/浼犳劅鍣ㄧ紪绋�/浠ｇ爜/鐑熼浘浼犳劅鍣�/cmake-build-debug/CMakeFiles/CMakeError.log".
